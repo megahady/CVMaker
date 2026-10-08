@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "My Academic CV",
+    "createdAt": "2026-10-08T17:13:38.745Z",
+    "updatedAt": "2026-10-08T17:13:49.585Z"
+  },
+  "template": "traditional",
+  "sections": [
+    {
+      "id": "profile",
+      "definitionId": "profile",
+      "title": "Personal Information",
+      "type": "single",
+      "enabled": true,
+      "order": 0,
+      "entries": [
+        {
+          "fullName": "Mohamed Abdelhady"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "definitionId": "education",
+      "title": "Education",
+      "type": "collection",
+      "enabled": true,
+      "order": 1,
+      "entries": []
+    },
+    {
+      "id": "positions",
+      "definitionId": "positions",
+      "title": "Academic Positions",
+      "type": "collection",
+      "enabled": true,
+      "order": 2,
+      "entries": []
+    },
+    {
+      "id": "research",
+      "definitionId": "research",
+      "title": "Research Experience",
+      "type": "collection",
+      "enabled": true,
+      "order": 3,
+      "entries": []
+    },
+    {
+      "id": "publications",
+      "definitionId": "publications",
+      "title": "Publications",
+      "type": "collection",
+      "enabled": true,
+      "order": 4,
+      "entries": []
+    },
+    {
+      "id": "awards",
+      "definitionId": "awards",
+      "title": "Awards and Honors",
+      "type": "collection",
+      "enabled": true,
+      "order": 5,
+      "entries": []
+    },
+    {
+      "id": "talks",
+      "definitionId": "talks",
+      "title": "Talks and Presentations",
+      "type": "collection",
+      "enabled": true,
+      "order": 6,
+      "entries": []
+    }
+  ]
+}

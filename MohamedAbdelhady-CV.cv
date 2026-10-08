@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "title": "Mohamed Abdelhady Ahmed — Academic CV",
+    "createdAt": "2026-10-08T00:00:00.000Z",
+    "updatedAt": "2026-10-08T00:00:00.000Z"
+  },
+  "template": "traditional",
+  "sections": [
+    {
+      "id": "profile",
+      "definitionId": "profile",
+      "title": "Personal Information",
+      "type": "single",
+      "enabled": true,
+      "order": 0,
+      "entries": [
+        {
+          "fullName": "Mohamed Abdelhady Ahmed, Ph.D.",
+          "preferredName": "Mohamed Abdelhady",
+          "email": "megahady@gmail.com",
+          "phone": "(216) 553-8555",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "country": "USA",
+          "website": "https://megahady.github.io"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "definitionId": "summary",
+      "title": "Professional Summary",
+      "type": "single",
+      "enabled": true,
+      "order": 1,
+      "fields": [
+        { "id": "summary", "label": "Summary", "type": "textarea" }
+      ],
+      "entries": [
+        {
+          "summary": "Robotics and AI researcher with a Ph.D. in Electrical Engineering (Dec 2021) and research experience spanning representation learning, system identification, state estimation, reinforcement learning, neural networks, wearable sensing, and model-based control of dynamical robotic systems. Developed learning-based methods for prostheses, pediatric exoskeletons, and human movement estimation using multimodal sensor data, including attention-based deep RNNs for EMG-driven state estimation and deep reinforcement-learning controllers for pediatric exoskeletons. Experienced in designing experimental systems, data-driven models, and hardware-in-the-loop demonstrations. Published in IEEE and robotics/biomedical venues and inventor on multiple U.S. patent applications. Professional Python practitioner (PyTorch, TensorFlow, Scikit-Learn). Former Cleveland Clinic Biomedical Engineering postdoctoral fellow (2021-2022); current Adjunct Assistant Professor at Cleveland State University."
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "definitionId": "education",
+      "title": "Education",
+      "type": "collection",
+      "enabled": true,
+      "order": 2,
+      "entries": [
+        {
+          "degree": "Ph.D.",
+          "fieldOfStudy": "Electrical Engineering",
+          "institution": "Cleveland State University",
+          "location": "Cleveland, OH",
+          "startYear": "2015",
+          "endYear": "2021",
+          "advisor": "Prof. Dan Simon",
+          "thesisTitle": "Codesign Development and Control of Smart Prostheses",
+          "description": "Dissertation: Codesign Development and Control of Smart Prostheses."
+        },
+        {
+          "degree": "M.Sc.",
+          "fieldOfStudy": "Computers & Systems Engineering",
+          "institution": "Minia University",
+          "location": "Minia, Egypt",
+          "endYear": "2010",
+          "thesisTitle": "Deep Insight in Control of Twin Rotor MIMO Helicopter System"
+        },
+        {
+          "degree": "B.Sc.",
+          "fieldOfStudy": "Electrical Engineering (Control Engineering)",
+          "institution": "Aswan University",
+          "location": "Aswan, Egypt",
+          "endYear": "2001",
+          "description": "Graduated Summa Cum Laude."
+        }
+      ]
+    },
+    {
+      "id": "positions",
+      "definitionId": "positions",
+      "title": "Academic Positions",
+      "type": "collection",
+      "enabled": true,
+      "order": 3,
+      "entries": [
+        {
+          "position": "Adjunct Assistant Professor",
+          "institution": "Cleveland State University",
+          "department": "Electrical Engineering & Computer Science",
+          "location": "Cleveland, OH",
+          "startYear": "2024",
+          "isPresent": true,
+          "description": "Teach courses including Artificial Intelligence for Engineers, Biomedical Signal Processing, Robotics and Intelligent Systems, and Engineering Programming (MATLAB & Python)."
+        },
+        {
+          "position": "Postdoctoral Fellow & Associate Investigator",
+          "institution": "National Institutes of Health (NIH), Clinical Center",
+          "department": "Rehabilitation Medicine",
+          "location": "Bethesda, MD",
+          "startYear": "2022",
+          "endYear": "2024",
+          "description": "Deep learning and reinforcement learning for personalized pediatric exoskeleton control and gait assessment."
+        },
+        {
+          "position": "Postdoctoral Fellow",
+          "institution": "Cleveland Clinic (Lerner Research Institute)",
+          "department": "Biomedical Engineering",
+          "location": "Cleveland, OH",
+          "startYear": "2021",
+          "endYear": "2022",
+          "description": "Data-driven detrusor pressure estimation, physiological signal processing, and clinical NLP pipelines; HIPAA-compliant."
+        },
+        {
+          "position": "Research Collaborator",
+          "institution": "U.S. Department of Veterans Affairs, Advanced Platform Technology Center",
+          "location": "Cleveland, OH",
+          "startYear": "2021",
+          "endYear": "2022",
+          "description": "Estimation and signal-processing methods for single-channel physiological sensing and pressure reconstruction."
+        },
+        {
+          "position": "Research Engineer",
+          "institution": "Ford Motor Company",
+          "location": "Detroit, MI",
+          "startYear": "2019",
+          "endYear": "2020",
+          "description": "Neural-network control for vehicle performance and fuel efficiency; real-time control systems."
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "definitionId": "research",
+      "title": "Research Experience",
+      "type": "collection",
+      "enabled": true,
+      "order": 4,
+      "entries": [
+        {
+          "role": "Postdoctoral Fellow & Associate Investigator",
+          "institution": "National Institutes of Health (NIH), Clinical Center",
+          "advisor": "Dr. Thomas C. Bulea",
+          "startYear": "2022",
+          "endYear": "2024",
+          "description": "Developed deep learning and reinforcement learning methods for personalized pediatric exoskeleton control, modeling time-varying human movement and system behavior.\nDeveloped neural-network methods for gait and lower-limb state estimation from wearable physiological sensors (EMG-driven knee angle estimation, attention-based deep RNNs).\nDesigned and evaluated a pediatric exoskeleton integrating robotic assistance with functional electrical stimulation.\nDesigned controlled experiments evaluating learned models for accuracy, robustness, and downstream robotic control.\nExplored AI-assisted clinical workflows using NLP and LLMs for healthcare knowledge extraction."
+        },
+        {
+          "role": "Postdoctoral Fellow, Biomedical Engineering",
+          "institution": "Cleveland Clinic (Lerner Research Institute)",
+          "advisor": "Drs. Margot Damaser & Steve Majerus",
+          "startYear": "2021",
+          "endYear": "2022",
+          "description": "Developed data-driven state/parameter estimation algorithms for detrusor pressure from single-channel bladder pressure recordings; clinically validated using real patient data.\nApplied physiological signal processing and machine learning to improve estimation from limited sensor observations.\nDesigned NLP pipelines extracting structured information from clinical documentation and EHR data; collaborated with clinicians on decision-support tooling; HIPAA-compliant.\nServed as Research Collaboration Coordinator across engineering, clinicians, and students."
+        },
+        {
+          "role": "Research Collaborator",
+          "institution": "U.S. Department of Veterans Affairs, Advanced Platform Technology Center",
+          "advisor": "Drs. Margot Damaser & Steve Majerus",
+          "startYear": "2021",
+          "endYear": "2022",
+          "description": "Estimation and signal-processing methods for single-channel physiological sensing and pressure reconstruction; co-inventor on resulting U.S. patent applications."
+        },
+        {
+          "role": "Ph.D. Researcher, Electrical Engineering",
+          "institution": "Cleveland State University",
+          "advisor": "Prof. Dan Simon",
+          "startYear": "2015",
+          "endYear": "2021",
+          "description": "Dissertation: Codesign Development and Control of Smart Prostheses.\nDeveloped learning-based models of lower-limb prostheses (system identification, neural networks, reinforcement learning) and reinforcement-learning impedance control.\nDeveloped a wearable multi-sensor system for lower-limb kinetics/kinematics and reinforcement-learning impedance control for prostheses.\nDesigned hardware-in-the-loop experiments; fabricated prosthesis prototypes via additive manufacturing.\nDeveloped wireless IoT wearable sensing and embedded data-acquisition systems for continuous gait monitoring."
+        },
+        {
+          "role": "Research Engineer",
+          "institution": "Ford Motor Company",
+          "startYear": "2019",
+          "endYear": "2020",
+          "description": "Neural-network control and real-time signal-processing systems; presented internal ML research at Ford's AI/ML conference."
+        },
+        {
+          "role": "Engineering Intern",
+          "project": "3D reconstruction for MRI; human-assistive robotics",
+          "institution": "Siemens",
+          "advisor": "Dr. Ivan Fischer",
+          "startYear": "2011",
+          "description": "3D reconstruction for MRI; human-assistive robotics with Festo."
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "definitionId": "publications",
+      "title": "Publications",
+      "type": "collection",
+      "enabled": true,
+      "order": 5,
+      "entries": [
+        {
+          "type": "journal",
+          "title": "Gaussian regressor-based adaptive control of exoskeleton joints in the presence of system uncertainty",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "T. C. Bulea", "isMe": false }
+          ],
+          "venue": "Wearable Technologies",
+          "volume": "6",
+          "pages": "e44",
+          "year": "2025",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "Actuator optimization and deep learning-based control of pediatric knee exoskeleton for community-based mobility assistance",
+          "authors": [
+            { "name": "S. Zhang", "isMe": false },
+            { "name": "M. Lopez-Sanchez", "isMe": false },
+            { "name": "M. Abdelhady", "isMe": true }
+          ],
+          "venue": "Mechatronics",
+          "volume": "97",
+          "pages": "103109",
+          "year": "2024",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "Knee angle estimation from surface EMG during walking using attention-based deep recurrent neural networks",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "D. L. Damiano", "isMe": false },
+            { "name": "T. C. Bulea", "isMe": false }
+          ],
+          "venue": "Sensors",
+          "volume": "24",
+          "issue": "13",
+          "pages": "4217",
+          "year": "2024",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "A high-fidelity wearable system for measuring lower-limb kinetics and kinematics",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "A. J. van den Bogert", "isMe": false },
+            { "name": "D. Simon", "isMe": false }
+          ],
+          "venue": "IEEE Sensors Journal",
+          "volume": "19",
+          "issue": "24",
+          "pages": "12482-12493",
+          "year": "2019",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "Depression and anxiety among siblings of children with cerebral palsy",
+          "authors": [
+            { "name": "E. Elsakka", "isMe": false },
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "S. Anwar", "isMe": false }
+          ],
+          "venue": "Journal of the High Institute of Public Health",
+          "volume": "52",
+          "issue": "1",
+          "pages": "24-32",
+          "year": "2022",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "The role of contemporary digital tools and technologies in Covid-19 crisis",
+          "authors": [
+            { "name": "M. Subramanian", "isMe": false },
+            { "name": "M. Abdelhady", "isMe": true }
+          ],
+          "venue": "Expert Systems",
+          "volume": "39",
+          "issue": "6",
+          "pages": "e12834",
+          "year": "2022",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "Secure dynamic group data sharing in semi-trusted third-party cloud environment",
+          "authors": [
+            { "name": "V. Sathishkumar", "isMe": false },
+            { "name": "M. Abdelhady", "isMe": true }
+          ],
+          "venue": "Arabian Journal for Science and Engineering",
+          "pages": "1-9",
+          "year": "2021",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "PID controller tuning for twin rotor MIMO system based on particle swarm optimization",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "M. El-Sayed", "isMe": false },
+            { "name": "M. Mohamed", "isMe": false }
+          ],
+          "venue": "Journal of Engineering Sciences",
+          "volume": "37",
+          "issue": "4",
+          "pages": "955-967",
+          "year": "2009",
+          "status": "published"
+        },
+        {
+          "type": "journal",
+          "title": "Application of superimposed neural network in human gait estimation",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "D. Simon", "isMe": false }
+          ],
+          "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+          "year": "2025",
+          "status": "accepted"
+        },
+        {
+          "type": "journal",
+          "title": "Synergizing assistive robotics and muscle electrical stimulation",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "T. C. Bulea", "isMe": false },
+            { "name": "D. Simon", "isMe": false }
+          ],
+          "venue": "IEEE Transactions on Biomedical Engineering",
+          "year": "2026",
+          "status": "underReview"
+        },
+        {
+          "type": "journal",
+          "title": "Advanced techniques for detrusor pressure estimation",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "S. Majerus", "isMe": false },
+            { "name": "M. S. Damaser", "isMe": false }
+          ],
+          "venue": "IEEE Transactions on Biomedical Engineering",
+          "year": "2026",
+          "status": "underReview"
+        },
+        {
+          "type": "conference",
+          "title": "Attention-based deep RNN to estimate knee angle during walking from lower-limb EMG",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "T. C. Bulea", "isMe": false }
+          ],
+          "venue": "IEEE International Conference on Rehabilitation Robotics (ICRR)",
+          "year": "2023",
+          "status": "published"
+        },
+        {
+          "type": "conference",
+          "title": "Prediction accuracy and model robustness of neural network-based ground reaction force estimators",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "T. C. Bulea", "isMe": false }
+          ],
+          "venue": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM)",
+          "year": "2023",
+          "status": "published"
+        },
+        {
+          "type": "conference",
+          "title": "Event-driven detrusor pressure estimator for single catheter applications",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "S. Majerus", "isMe": false },
+            { "name": "M. S. Damaser", "isMe": false }
+          ],
+          "venue": "IEEE Signal Processing in Medicine and Biology Symposium (SPMB)",
+          "pages": "503-509",
+          "year": "2022",
+          "status": "published"
+        },
+        {
+          "type": "conference",
+          "title": "Prosthesis controller hardware-in-the-loop simulation",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "D. Simon", "isMe": false }
+          ],
+          "venue": "3rd International Conference on Control and Robots",
+          "year": "2020",
+          "status": "published"
+        },
+        {
+          "type": "conference",
+          "title": "Reinforcement learning for impedance control for lower-limb prostheses",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "Y. P. Kondratenko", "isMe": false },
+            { "name": "D. Simon", "isMe": false }
+          ],
+          "venue": "Automation 2020",
+          "pages": "115-116",
+          "year": "2020",
+          "status": "published"
+        },
+        {
+          "type": "conference",
+          "title": "System identification and control optimization of an active prosthetic knee in swing phase",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "D. Simon", "isMe": false }
+          ],
+          "venue": "American Control Conference (ACC)",
+          "pages": "857-862",
+          "year": "2017",
+          "status": "published"
+        },
+        {
+          "type": "conference",
+          "title": "Stability analysis of heartbeat control based on the Zeeman framework",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "Y. P. Kondratenko", "isMe": false },
+            { "name": "D. Simon", "isMe": false }
+          ],
+          "venue": "IEEE International Conference on Intelligent Data Acquisition and Advanced Computing Systems: Technology and Applications (IDAACS)",
+          "pages": "824-829",
+          "year": "2019",
+          "status": "published"
+        },
+        {
+          "type": "conference",
+          "title": "Design a compact wireless IoT gait monitor wearable sensory system",
+          "authors": [
+            { "name": "M. Abdelhady", "isMe": true },
+            { "name": "A. Elsheikh", "isMe": false },
+            { "name": "M. Ahmed", "isMe": false }
+          ],
+          "venue": "International Telecommunication Conference (ITC)",
+          "pages": "1-4",
+          "year": "2021",
+          "status": "published"
+        },
+        {
+          "type": "other",
+          "title": "Detrusor pressure estimation from single channel bladder pressure recordings",
+          "authors": [
+            { "name": "Margot S. Damaser", "isMe": false },
+            { "name": "Steve Majerus", "isMe": false },
+            { "name": "Mohamed Abdelhady", "isMe": true }
+          ],
+          "venue": "U.S. Patent and Trademark Office - U.S. Patent Application No. 17/880,109",
+          "year": "2022",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "definitionId": "teaching",
+      "title": "Teaching Experience",
+      "type": "collection",
+      "enabled": true,
+      "order": 6,
+      "entries": [
+        {
+          "course": "Multiple courses (20+)",
+          "institution": "Cleveland State University",
+          "role": "instructor",
+          "description": "Taught more than 20 courses including Artificial Intelligence for Engineers, Biomedical Signal Processing, Robotics and Intelligent Systems, and Engineering Programming (MATLAB & Python)."
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "definitionId": "awards",
+      "title": "Awards and Honors",
+      "type": "collection",
+      "enabled": true,
+      "order": 7,
+      "entries": [
+        { "award": "Cleveland Clinic Travel Grant (AUA Conference)", "organization": "Cleveland Clinic", "year": "2022" },
+        { "award": "Cleveland Clinic Fellowship - ML & signal processing for bladder biometrics", "organization": "Cleveland Clinic", "year": "2022" },
+        { "award": "Best Paper Award - Event-driven detrusor pressure estimator", "organization": "IEEE Signal Processing in Medicine and Biology Symposium (SPMB)", "year": "2022" },
+        { "award": "Student Research Award (outstanding Ph.D. candidate)", "organization": "Cleveland State University", "year": "2021" },
+        { "award": "Best Paper Award - Prosthesis controller hardware-in-the-loop simulation", "organization": "3rd International Conference on Control and Robots", "year": "2020" },
+        { "award": "Excellent Oral Presentation Award", "organization": "ICCR Conference", "year": "2020" },
+        { "award": "Dean Travel Award", "organization": "Cleveland State University", "year": "2017" },
+        { "award": "Graduate School Award", "organization": "Cleveland State University", "year": "2017" },
+        { "award": "Egyptian Government Scholarship", "organization": "Egyptian Government", "year": "2014" }
+      ]
+    },
+    {
+      "id": "grants",
+      "definitionId": "grants",
+      "title": "Grants and Fellowships",
+      "type": "collection",
+      "enabled": true,
+      "order": 8,
+      "entries": [
+        {
+          "name": "Egyptian Government Scholarship",
+          "organization": "Egyptian Government",
+          "role": "other",
+          "startYear": "2014",
+          "description": "Fully funded scholarship for Ph.D. studies."
+        },
+        {
+          "name": "Cleveland Clinic Fellowship - bladder biometrics ML project",
+          "organization": "Cleveland Clinic",
+          "role": "postdocFellow",
+          "startYear": "2022",
+          "endYear": "2022",
+          "description": "Machine learning and signal processing for bladder biometrics."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "definitionId": "service",
+      "title": "Academic Service",
+      "type": "collection",
+      "enabled": true,
+      "order": 9,
+      "entries": [
+        { "organization": "Expert Systems with Applications", "role": "Peer Reviewer" },
+        { "organization": "Engineering Applications of Artificial Intelligence", "role": "Peer Reviewer" },
+        { "organization": "Applied Soft Computing", "role": "Peer Reviewer" },
+        { "organization": "IEEE Control Letters", "role": "Peer Reviewer" },
+        { "organization": "IEEE Robotics & Automation Society", "role": "Member", "isPresent": true },
+        { "organization": "IEEE Control Systems Society", "role": "Member", "isPresent": true },
+        { "organization": "International Society of Automation", "role": "Member", "isPresent": true },
+        { "organization": "Cleveland State University", "role": "ABET Accreditation & Assessment Coordinator; ECE Curriculum Committee Member" },
+        { "organization": "Cleveland State University", "role": "Founder & Coordinator, Intelligent Systems, Robotics & AI Research Group" },
+        { "organization": "Cleveland State University", "role": "Advisor, IEEE / Robotics / AI student chapters" }
+      ]
+    },
+    {
+      "id": "skills",
+      "definitionId": "skills",
+      "title": "Skills",
+      "type": "collection",
+      "enabled": true,
+      "order": 10,
+      "entries": [
+        { "category": "Programming", "items": "Python (PyTorch, TensorFlow, Keras, Scikit-Learn, NumPy, pandas, SciPy, XGBoost), MATLAB, C++, C#, Java, SQL, Git" },
+        { "category": "Deep Learning", "items": "RNN/LSTM, CNN, attention models, representation learning, transfer learning, model robustness & interpretability analysis" },
+        { "category": "LLMs & NLP", "items": "Large language models, RAG, agentic AI, prompt engineering, clinical/EHR information-extraction pipelines, model evaluation" },
+        { "category": "Signal Processing", "items": "ECG, EMG, EEG, digital filtering, wavelet & time-frequency analysis, feature extraction, time-series analysis" },
+        { "category": "Medical Imaging", "items": "Biomedical image classification, image preprocessing, quantitative image analysis, CNN-based recognition" },
+        { "category": "Reinforcement Learning", "items": "RL for control, impedance control, policy learning, simulation (MuJoCo, Isaac Lab, Gazebo)" },
+        { "category": "Robotics & Control", "items": "Model predictive control, adaptive/nonlinear control, optimal control, hardware-in-the-loop" },
+        { "category": "Wearable Sensing", "items": "EMG, IMU, gait monitoring, exoskeletons, prostheses, embedded data acquisition" },
+        { "category": "Systems & Tools", "items": "Linux, Windows, ROS/ROS2, Docker, MLflow, Jupyter, AWS/Azure, EHR data pipelines, HIPAA-compliant data governance" },
+        { "category": "Engineering", "items": "Sensor fusion, wearable sensor networks, hardware-in-the-loop testing, additive manufacturing, SolidWorks, Altium" }
+      ]
+    }
+  ]
+}
