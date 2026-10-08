@@ -1,4 +1,3 @@
-
 <img width="1909" height="990" alt="image" src="https://github.com/user-attachments/assets/d7434358-ea20-4f0a-90de-3c9d39911ef5" />
 
 
@@ -13,10 +12,47 @@ User → Structured Editor → CV Data (Zod-validated) → Live Preview (HTML/CS
                                                  ↘ LaTeX Generator → .tex → XeLaTeX → PDF
 ```
 
+## Download & Install
+
+Grab the latest installer from the **GitHub Releases** page for this repo, or
+build one yourself with `npm run tauri build`. All data stays local — the app
+needs no account and no internet connection at runtime.
+
+### Windows (10+)
+
+| Package | File (after build) | How to install |
+|---|---|---|
+| **MSI** (recommended) | `src-tauri/target/release/bundle/msi/CVMaker_0.1.0_x64_en-US.msi` | Double-click, follow the wizard |
+| **NSIS** | `src-tauri/target/release/bundle/nsis/CVMaker_0.1.0_x64-setup.exe` | Double-click, follow the setup wizard |
+| **Portable** | `src-tauri/target/release/cvmaker.exe` | Run directly — no install needed |
+
+For the **Export .pdf** button you also need XeLaTeX available, e.g. install
+[MiKTeX](https://miktex.org) and make sure `xelatex` is on your PATH (the TeX
+Gyre fonts used by several templates are installed automatically with it).
+
+### macOS (10.15+)
+
+The mac installer must be built on a Mac — Tauri cannot cross-compile it from
+Windows. On a Mac with Node, Rust and Xcode Command Line Tools:
+
+```sh
+npm install
+npm run tauri build
+```
+
+| Package | File (after build) | How to install |
+|---|---|---|
+| **App bundle** | `src-tauri/target/release/bundle/macos/CVMaker.app` | Drag into Applications |
+| **DMG** | `src-tauri/target/release/bundle/dmg/*.dmg` | Open the disk image, drag into Applications |
+
+Unsigned builds trigger Gatekeeper on first launch: **right-click the app → Open**.
+For **Export .pdf** install [MacTeX](https://tug.org/mactex/) (or BasicTeX) so
+`xelatex` is on your PATH.
+
 ## Status
 
-**All 10 phases are complete** (93 Vitest tests passing). The CV editor,
-`.cv` save/open/autosave, live HTML preview (Traditional/Modern/Compact),
+**All 11 phases are complete** (95 Vitest tests passing). The CV editor,
+`.cv` save/open/autosave, live HTML preview (13 single-column layouts),
 LaTeX generation, and the PDF export pipeline (Rust compiles temp `.tex` with
 XeLaTeX under a 120 s timeout) are built and verified. The Rust backend
 compiles clean with rustc/cargo 1.99 + MSVC 14.44, and release installers are
