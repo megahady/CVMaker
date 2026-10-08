@@ -1,3 +1,7 @@
+
+<img width="1909" height="990" alt="image" src="https://github.com/user-attachments/assets/d7434358-ea20-4f0a-90de-3c9d39911ef5" />
+
+
 # CVMaker
 
 A local desktop application for building academic CVs through a structured form
